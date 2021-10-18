@@ -166,6 +166,7 @@ img {
 }
 
 .images-list {
+  cursor: pointer;
   z-index: 2;
   display: grid;
   grid-template-columns: repeat(6, 80px);
