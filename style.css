@@ -562,4 +562,47 @@ img {
   border-radius: 1px;
 }
 
+@media screen and (max-width: 1200px) {
+  .title {
+    max-width: auto;
+  }
+
+  .video {
+    margin-left: 8rem;
+  }
+
+  .images-list {
+    margin-left: 13rem;
+  }
+
+  #heart {
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .title {
+    margin-left: 9rem;
+  }
+
+  .memory {
+    margin-left: 10rem;
+  }
+
+  .video {
+    margin-left: 5rem;
+  }
+
+  .chu .text {
+    margin-left: 10rem;
+  }
+
+  .images-list {
+    margin-left: 9rem;
+  }
+
+  #heart {
+    margin-left: 2rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
