@@ -605,5 +605,26 @@ img {
     margin-left: 2rem;
   }
 }
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 1rem;
+  }
+
+  .video {
+    margin-left: -2rem;
+  }
+
+  .chu {
+    margin-left: 6rem;
+  }
+
+  #heart {
+    margin-left: -4rem;
+  }
+
+  .images-list {
+    margin-left: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
