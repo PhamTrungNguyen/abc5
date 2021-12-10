@@ -111,6 +111,7 @@ img {
   margin-top: -38rem;
   margin-left: 11.1rem;
   z-index: -2;
+  animation: heartbeat 2s infinite;
 }
 
 #heart:before,
@@ -169,12 +170,13 @@ img {
   cursor: pointer;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(6, 80px);
-  grid-template-rows: repeat(6, 90px);
+  grid-template-columns: repeat(6, 90px);
+  grid-template-rows: repeat(6, 100px);
   grid-gap: 5px;
   grid-template-areas: "  .  a1  a2  .   a3  a4    . " " a5  a6  a7  a8  a9  a10  a11" " a12 a13 l1  l1  l1   a14  a15" "  .  a16 l1  l1  l1   a17   . " "  .   .  a18 a19 a20  .    . " "  .   .   .  a21  .   .    .";
-  margin-left: 18rem;
+  margin-left: 16.5rem;
   transition: all 0.25s ease-in;
+  margin-bottom: -2rem;
 }
 
 .image-item {
@@ -182,7 +184,7 @@ img {
 }
 
 .image {
-  width: 80px;
+  width: 100px;
   height: 90px;
   object-fit: cover;
   object-position: center;
