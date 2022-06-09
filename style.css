@@ -1,4 +1,4 @@
-/* html {
+html {
   font-size: 62.5 html;
 }
 
@@ -629,9 +629,9 @@ img {
   }
 }
 
-# sourceMappingURL=style.css.map
- */
- .text {
+/* # sourceMappingURL=style.css.map */
+
+/* .text {
   font-size: 32px;
   position: absolute;
   top: 1.4rem;
@@ -1526,3 +1526,4 @@ font-family: 'Source Sans Pro', sans-serif;
       background: #fdd214;
   }
 }
+ */
